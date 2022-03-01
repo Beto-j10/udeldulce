@@ -100,7 +100,7 @@ onMounted(() => {
 .header__text--small {
     display: block;
     text-align: center;
-    font-size: var(--font-size-x-large);
+    font-size: var(--font-size-base);
     top: -8px;
 }
 
@@ -278,7 +278,7 @@ a {
         font-size: 3.2rem;
     }
     .header__text--small {
-        font-size: 2.2rem;
+        font-size: var(--font-size-medium);
     }
     .header__image {
         width: 384px;
