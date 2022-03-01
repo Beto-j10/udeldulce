@@ -50,7 +50,7 @@ onMounted(() => {
 
                 <div class="contact__instagram">
                     <IconInstagram :size="72" />
-                    <a href="https://www.instagram.com/universidaddeldulce/" target="_blank"></a>
+                    <a href="https://www.instagram.com/universodeldulce/" target="_blank"></a>
                 </div>
                 <div class="contact__email">
                     <IconEmail :size="24" />
