@@ -218,7 +218,7 @@ onMounted(() => {
 
 .animation__candy {
     animation: scale_candy 0.8s ease-in 0.5s 1 normal;
-    /* filter: opacity(0%); */
+    filter: opacity(0%);
 }
 
 .hidden {
@@ -227,19 +227,19 @@ onMounted(() => {
 
 @keyframes scale_candy {
     0% {
-        /* transform: scale(1) rotate(-0.2turn); */
+        transform: scale(1) rotate(-0.2turn);
         filter: opacity(100%);
     }
     1% {
         transform: scale(1) rotate(-0.2turn);
-        /* filter: opacity(100%); */
+        filter: opacity(100%);
     }
     40% {
         transform: scale(2);
     }
     100% {
         transform: scale(0) rotate(1.2turn);
-        /* filter: opacity(100%); */
+        filter: opacity(100%);
     }
 }
 
